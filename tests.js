@@ -171,10 +171,10 @@ describe("Funciones en JS", () => {
     it("Cuál es el resultado de invocar la función? (3)", () => {
 
         // substituye "???" por el resultado en cada caso
-        expect(h("khaleesi mother of dragons breaker of chains") === 45).to.be.true;
-        expect(h("sarah") === 5).to.be.true;
-        expect(h("bob") === 3).to.be.true;
-        expect(h("robertson") === 9).to.be.true;
+        expect(h("khaleesi mother of dragons breaker of chains") === "very long").to.be.true;
+        expect(h("sarah") === "adecquate").to.be.true;
+        expect(h("bob") === "too short").to.be.true;
+        expect(h("robertson") === "long").to.be.true;
     })
 
 })
